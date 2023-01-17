@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    color: black;
+}
+body{
+    background-color: rgb(127, 184, 107);
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes example {
+    0%   {background-color:rgb(132, 216, 98); }
+    25%  {background-color:rgb(176, 201, 39); }
+    50%  {background-color:rgb(216, 175, 40); }
+    75%  {background-color:rgb(145, 216, 51); }
+    100% {background-color:rgb(132, 216, 98); }
+  }
+
